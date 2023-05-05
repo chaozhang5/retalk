@@ -8,7 +8,7 @@ const model = {
 	actions: {
 		addCount(params) {
 			this.setState({
-				count: params + 1
+				count: params + 2
 			})
 		},
 
