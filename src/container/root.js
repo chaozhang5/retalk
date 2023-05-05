@@ -11,7 +11,7 @@ class App extends Component {
 		let count = this.props.count;
 		return (
 			<div>
-				<h1>现在数量为：{count}</h1>
+				<h1>现在数量为1：{count}</h1>
 				<button onClick={() => {
 					this.props.actions.addCount(count)
 				}}>数量+1</button>
