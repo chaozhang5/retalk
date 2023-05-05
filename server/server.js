@@ -4,7 +4,7 @@ const app = express();
 
 // express demo
 app.get('/', function(req, res) {
-	res.send('hello world')
+	res.send('hello world1')
 })
 
 app.get('/data', function(req, res) {
